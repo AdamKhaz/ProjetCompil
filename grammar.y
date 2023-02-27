@@ -43,6 +43,9 @@ node_t make_node(node_nature nature, int nops, ...);
 
 /* Definir les token ici avec leur associativite, dans le bon ordre */
 %token TOK_VOID TOK_INT TOK_INTVAL TOK_BOOL TOK_TRUE TOK_FALSE
+%token TOK_IDENT TOK_IF TOK_ELSE TOK_WHILE TOK_FOR TOK_PRINT
+%token TOK_SEMICOL TOK_COMMA TOK_LPAR TOK_RPAR TOK_LACC TOK_RACC
+%token TOK_STRING TOK_DO
 
 /* A completer */
 
